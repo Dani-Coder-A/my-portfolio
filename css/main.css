@@ -87,6 +87,175 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/********** General Base Styles **********/
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1em;
+  font-family: 'Varela Round', sans-serif;
+  color: #f8f8ff;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  color: #f8f8ff;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Solway', serif;
+  margin: 0px;
+}
+
+p {
+  font-size: 1em;
+  margin: 0px;
+}
+
+img {
+  background: #f8f8ff;
+  width: 100%;
+}
+
+address {
+  font-style: normal;
+}
+
+.content-wrapper {
+  width: 90%;
+}
+
+/********** Mobile Header Styles **********/
+
+header {
+  background: #ff7f50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+nav {
+  margin-bottom: 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  font-size: .75em;
+}
+
+header h1, header h2 {
+  width: 100%;
+}
+
+header h1 {
+  font-size: 1.75em;
+}
+
+header h2 {
+  font-size: 1.25em;
+  padding: 30px 0px;
+}
+
+/********** Mobile Projects Styles **********/
+
+#projects {
+  background: #ff527d;
+}
+
+/********** Mobile Skills Styles **********/
+
+#skills {
+  background: #ff7f50;
+}
+
+/********** Mobile About Styles **********/
+#about {
+  background: #ff527d;
+}
+
+/********** Mobile Footer Styles **********/
+
+footer#contact {
+  background: #e17070;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0px 60px;
+}
+
+#contact h3 {
+  padding-bottom: 60px;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+footer .contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+
+.contact-wrapper .email {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.contact-wrapper .socials {
+  width: 50%;
+  margin-bottom: 60px;
+}
+
+footer h4 {
+  padding-bottom: 30px;
+  font-size: 1.25em;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+footer .social-icons li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+
+.social-icons i {
+  font-size: 2em;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
