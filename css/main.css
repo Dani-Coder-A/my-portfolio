@@ -126,6 +126,10 @@ img {
   width: 100%;
 }
 
+figure {
+  margin: 0px;
+}
+
 address {
   font-style: normal;
 }
@@ -137,7 +141,8 @@ address {
 /********** Mobile Header Styles **********/
 
 header {
-  background: #ff7f50;
+  background: url("../img/brick-wall-hero-image.png");
+  color: #ee6386;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -169,6 +174,12 @@ nav ul li {
   font-size: .75em;
 }
 
+nav ul li a {
+  background-color: #ee6386;
+  border-radius: 20px;
+  padding: 5px;
+}
+
 header h1, header h2 {
   width: 100%;
 }
@@ -185,18 +196,149 @@ header h2 {
 /********** Mobile Projects Styles **********/
 
 #projects {
-  background: #ff527d;
+  background: #ee6386;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+#projects h3 {
+  font-size: 1.5em;
+  padding-bottom: 40px;
+}
+
+#projects .portfolio-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.portfolio-wrapper .portfolio-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.portfolio-item figure {
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.portfolio-item figure a {
+  width: 100%;
+}
+
+.portfolio-item h4 {
+  font-size: 1.25em;
+  padding-bottom: 30px;
+}
+
+.portfolio-item p {
+  text-align: left;
+  width: 100%;
+}
+
+.portfolio-item p span {
+  font-weight: bolder;
+}
+
+.project-description {
+  padding-bottom: 30px;
+}
+
+.project-link {
+  background-color: #f8f8ff;
+  color: #ee6386;
+  border-radius: 40px;
+  margin: 30px 0px 60px 0px;
+  padding: 20px 60px;
+  font-size: 1.25em;
+  font-weight: bolder;
 }
 
 /********** Mobile Skills Styles **********/
 
 #skills {
-  background: #ff7f50;
+  background: #e17070;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0px;
+}
+
+#skills .content-wrapper div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+#skills h3 {
+  font-size: 1.5em;
+  padding-bottom: 10px;
+}
+
+#skills h4 {
+  font-size: 1.25em;
+  padding: 40px 0px 20px 0px;
+}
+
+.skill, .tool {
+  background-color: #f8f8ff;
+  color: #e17070;
+  font-weight: bolder;
+  padding: 20px 0px;
+  margin: 20px 0px;
+  width: 100%;
 }
 
 /********** Mobile About Styles **********/
 #about {
-  background: #ff527d;
+  background: #ee6386;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0px;
+}
+
+#about .about-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.about-wrapper figure {
+  padding-bottom: 40px;
+}
+
+.about-wrapper img {
+  border: 10px solid #f8f8ff;
+  border-radius: 100%;
+  width: 60%;
+}
+
+.about-wrapper .about-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.about-info h3 {
+  font-size: 1.5em;
+}
+
+.about-info h4 {
+  font-size: 1.25em;
+  padding: 60px 0px 40px 0px;
+}
+
+.about-info p {
+  text-align: left;
 }
 
 /********** Mobile Footer Styles **********/
@@ -206,7 +348,7 @@ footer#contact {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 80px 0px 60px;
+  padding: 60px 0px;
 }
 
 #contact h3 {
