@@ -141,14 +141,15 @@ address {
 /********** Mobile Header Styles **********/
 
 header {
-  background: url("../img/brick-wall-hero-image.png");
+  background: url("../img/brick-wall-hero-image.png") center no-repeat;
+  background-size: cover;
   color: #ee6386;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   text-align: center;
-  padding: 30px 0px;
+  padding: 30px 0px 80px 0px;
 }
 
 header .content-wrapper {
@@ -159,7 +160,7 @@ header .content-wrapper {
 }
 
 nav {
-  margin-bottom: 60px;
+  margin-bottom: 80px;
   text-transform: uppercase;
   font-weight: bold;
   width: 100%;
@@ -171,7 +172,7 @@ nav ul {
 }
 
 nav ul li {
-  font-size: .75em;
+  font-size: .875em;
 }
 
 nav ul li a {
@@ -185,12 +186,13 @@ header h1, header h2 {
 }
 
 header h1 {
-  font-size: 1.75em;
+  font-size: 2em;
+  line-height: 1.5em;
 }
 
 header h2 {
-  font-size: 1.25em;
-  padding: 30px 0px;
+  font-size: 1.5em;
+  padding: 60px 0px 40px 0px;
 }
 
 /********** Mobile Projects Styles **********/
@@ -200,11 +202,12 @@ header h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
+  padding: 100px 0px 20px 0px;
+  width: 100%;
 }
 
 #projects h3 {
-  font-size: 1.5em;
+  font-size: 2em;
   padding-bottom: 40px;
 }
 
@@ -220,6 +223,7 @@ header h2 {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 100%;
 }
 
 .portfolio-item figure {
@@ -232,17 +236,20 @@ header h2 {
 }
 
 .portfolio-item h4 {
-  font-size: 1.25em;
-  padding-bottom: 30px;
+  font-size: 1.5em;
+  padding-bottom: 20px;
 }
 
 .portfolio-item p {
   text-align: left;
   width: 100%;
+  line-height: 1.75em;
 }
 
 .portfolio-item p span {
+  font-size: 1.125em;
   font-weight: bolder;
+  text-transform: uppercase;
 }
 
 .project-description {
@@ -253,7 +260,7 @@ header h2 {
   background-color: #f8f8ff;
   color: #ee6386;
   border-radius: 40px;
-  margin: 30px 0px 60px 0px;
+  margin: 40px 0px 80px 0px;
   padding: 20px 60px;
   font-size: 1.25em;
   font-weight: bolder;
@@ -262,11 +269,12 @@ header h2 {
 /********** Mobile Skills Styles **********/
 
 #skills {
-  background: #e17070;
+  background: #ffe6ea;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 60px 0px;
+  padding: 100px 0px;
+  width: 100%;
 }
 
 #skills .content-wrapper div {
@@ -276,23 +284,35 @@ header h2 {
   flex-flow: row wrap;
 }
 
-#skills h3 {
-  font-size: 1.5em;
-  padding-bottom: 10px;
+#skills h3.skills-headline,
+#skills h3.tools-headline {
+  color: #ee6386;
+  font-size: 2em;
+  padding-bottom: 30px;
 }
 
-#skills h4 {
-  font-size: 1.25em;
-  padding: 40px 0px 20px 0px;
+#skills h3.tools-headline {
+  padding-top: 60px;
 }
 
 .skill, .tool {
-  background-color: #f8f8ff;
-  color: #e17070;
+  background-color: #ee6386;
+  color: #f8f8ff;
+  font-size: 1.25em;
   font-weight: bolder;
   padding: 20px 0px;
   margin: 20px 0px;
   width: 100%;
+}
+
+.skills-wrapper p:first-of-type, 
+.tools-wrapper p:first-of-type {
+  margin-top: 0px;
+}
+
+.skills-wrapper p:last-of-type, 
+.tools-wrapper p:last-of-type {
+  margin-bottom: 0px;
 }
 
 /********** Mobile About Styles **********/
@@ -301,7 +321,8 @@ header h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 60px 0px;
+  padding: 100px 0px;
+  width: 100%;
 }
 
 #about .about-wrapper {
@@ -318,7 +339,7 @@ header h2 {
 .about-wrapper img {
   border: 10px solid #f8f8ff;
   border-radius: 100%;
-  width: 60%;
+  width: 80%;
 }
 
 .about-wrapper .about-info {
@@ -329,32 +350,36 @@ header h2 {
 }
 
 .about-info h3 {
-  font-size: 1.5em;
+  font-size: 2em;
+  line-height: 1.5em;
 }
 
 .about-info h4 {
-  font-size: 1.25em;
-  padding: 60px 0px 40px 0px;
+  font-size: 1.5em;
+  padding: 40px 0px;
 }
 
-.about-info p {
+.about-text {
+  line-height: 1.75em;
   text-align: left;
+  width: 100%;
 }
 
 /********** Mobile Footer Styles **********/
 
 footer#contact {
-  background: #e17070;
+  background: #ffe6ea;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 60px 0px;
+  padding: 100px 0px 30px 0px;
 }
 
 #contact h3 {
+  color: #ee6386;
   padding-bottom: 60px;
   width: 100%;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 footer .contact-wrapper {
@@ -369,14 +394,19 @@ footer .contact-wrapper {
   margin-bottom: 60px;
 }
 
+footer p a {
+  color: #ee6386;
+}
+
 .contact-wrapper .socials {
   width: 50%;
   margin-bottom: 60px;
 }
 
 footer h4 {
+  color: #ee6386;
   padding-bottom: 30px;
-  font-size: 1.25em;
+  font-size: 1.5em;
 }
 
 footer .social-icons {
@@ -394,7 +424,12 @@ footer .social-icons li {
 }
 
 .social-icons i {
+  color: #ee6386;
   font-size: 2em;
+}
+
+footer p {
+  color: #ee6386;
 }
 
 
