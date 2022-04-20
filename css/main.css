@@ -432,7 +432,6 @@ footer p {
   color: #ee6386;
 }
 
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -520,6 +519,81 @@ footer p {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+
+/********** Tablet Styles Here *********/
+
+@media only screen and (min-width: 768px) {
+
+/* General Styles */
+
+.content-wrapper {
+  max-width: 640px;
+}
+
+/* Header Styles */
+
+header {
+  padding: 60px 0px 100px 0px;
+}
+
+nav {
+  margin-bottom: 100px;
+}
+
+nav ul li {
+  font-size: 1em;
+}
+
+nav ul li a {
+  border-radius: 30px;
+  padding: 10px;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+header h2 {
+  font-size: 1.75em;
+  line-height: 1.5em;
+  padding: 80px 0px 60px 0px;
+}
+
+/* Projects Styles */
+
+#projects {
+  padding: 140px 0px 40px 0px
+}
+
+#projects h3 {
+  font-size: 2.5em;
+  padding-bottom: 60px;
+}
+
+#projects .portfolio-wrapper {
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.portfolio-wrapper .portfolio-item {
+  width: 45%;
+}
+
+.portfolio-item p {
+  font-size: 1.125em;
+}
+
+.project-link {
+  margin-bottom: 100px;
+  font-size: 1.5em;
+}
+
+/* Skills Styles */
+
+/* About Styles */
+
+/* Footer Styles */
+}
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
