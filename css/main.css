@@ -256,6 +256,10 @@ header h2 {
   padding-bottom: 30px;
 }
 
+.skills-list {
+  padding-bottom: 10px;
+}
+
 .project-link {
   background-color: #f8f8ff;
   color: #ee6386;
@@ -648,6 +652,7 @@ header h2 {
 
 .about-info h4 {
   font-size: 1.75em;
+  text-align: left;
 }
 
 .about-text {
@@ -665,31 +670,166 @@ footer#contact {
   padding-bottom: 100px;
 }
 
+.contact-wrapper .email {
+  margin-bottom: 120px;
+}
+
+.contact-wrapper .socials {
+  width: 60%;
+  margin-bottom: 120px;
+}
+
+footer h4 {
+  padding-bottom: 40px;
+  font-size: 1.75em;
+}
+
+footer .contact-email {
+  font-size: 1.5em;
+}
+
+.social-icons i {
+  font-size: 2.5em;
+}
+
+footer .copyright {
+  font-size: 1.125em;
+}
+}
+
+/********** Desktop Styles Here **********/
+
+@media only screen and (min-width: 1200px) {
+
+/* General Styles */
+
+.content-wrapper {
+  max-width: 960px;
+}
+
+/* Header Styles */
+
+header {
+  padding: 80px 0px 120px 0px;
+}
+
+nav {
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  padding-left: 40px;
+}
+
+nav ul li a {
+  padding: 15px;
+}
+
+header h1 {
+  font-size: 3.5em;
+}
+
+header h2 {
+  font-size: 2.5em;
+  padding-top: 100px;
+}
+
+/* Projects Styles */
+
+#projects {
+  padding: 140px 0px 60px 0px
+}
+
+#projects h3 {
+  font-size: 3.2em;
+  padding-bottom: 80px;
+}
+
+.portfolio-wrapper .portfolio-item {
+  width: 30%;
+}
+
+.portfolio-item h4 {
+  font-size: 2.2em;
+}
+
+/* Skills Styles */
+
+#skills {
+  padding: 140px 0px;
+}
+
+#skills h3.skills-headline,
+#skills h3.tools-headline {
+  font-size: 3.2em;
+}
+
+.skill, .tool {
+  width: 30%;
+}
+
+/* About Styles */
+
+#about {
+  padding: 140px 0px;
+}
+
+#about .about-wrapper {
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about-wrapper figure {
+  width: 38%;
+  order: 2;
+}
+
+.about-wrapper .about-info {
+  width: 60%;
+}
+
+.about-info h3 {
+  font-size: 3.2em;
+  line-height: 1.4em;
+  text-align: left;
+}
+
+/* Footer Styles */
+
+footer#contact {
+  padding: 140px 0px 80px 0px;
+}
+
+#contact h3 {
+  font-size: 3.2em;
+  padding-bottom: 120px;
+}
+
 footer .contact-wrapper {
   justify-content: space-between;
 }
 
 .contact-wrapper .email {
-  width: 49%;
-  margin-bottom: 100px;
+  width: 40%;
+  margin-bottom: 120px;
 }
 
 .contact-wrapper .socials {
-  width: 49%;
-  margin-bottom: 100px;
+  width: 40%;
+  margin-bottom: 120px;
 }
 
 footer h4 {
-  padding-bottom: 60px;
-  font-size: 1.75em;
+  padding-bottom: 80px;
+  font-size: 2em;
 }
 
-footer .contact-email {
-  font-size: 1.25em;
-}
-
-footer .copyright {
-  font-size: 1.125em;
+footer .social-icons li {
+  align-items: flex-start;
+  width: 60px;
+  height: 60px;
 }
 }
 
