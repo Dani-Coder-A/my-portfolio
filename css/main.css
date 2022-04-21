@@ -181,6 +181,12 @@ nav ul li a {
   padding: 5px;
 }
 
+a.nav-link:hover {
+  background-color: transparent;
+  color: #ee6386;
+  border: 3px solid #ee6386;
+}
+
 header h1, header h2 {
   width: 100%;
 }
@@ -227,8 +233,12 @@ header h2 {
 }
 
 .portfolio-item figure {
-  padding-bottom: 20px;
   width: 100%;
+}
+
+.portfolio-item figure:hover {
+  width: 95%;
+  box-shadow: 10px 10px 3px #ffe6ea;
 }
 
 .portfolio-item figure a {
@@ -237,7 +247,7 @@ header h2 {
 
 .portfolio-item h4 {
   font-size: 1.5em;
-  padding-bottom: 20px;
+  padding: 20px 0px;
 }
 
 .portfolio-item p {
@@ -268,6 +278,10 @@ header h2 {
   padding: 20px 60px;
   font-size: 1.25em;
   font-weight: bolder;
+}
+
+.project-link:hover {
+  background-color: #ffe6ea;
 }
 
 /********** Mobile Skills Styles **********/
@@ -402,6 +416,10 @@ footer p a {
   color: #ee6386;
 }
 
+footer .contact-email a:hover {
+  font-size: 1.05em;
+}
+
 .contact-wrapper .socials {
   width: 50%;
   margin-bottom: 60px;
@@ -423,13 +441,15 @@ footer .social-icons li {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
 }
 
 .social-icons i {
   color: #ee6386;
   font-size: 2em;
+}
+
+.social-icons i:hover {
+  font-size: 2.2em;
 }
 
 footer p {
@@ -684,12 +704,20 @@ footer h4 {
   font-size: 1.75em;
 }
 
-footer .contact-email {
+footer .contact-email a{
   font-size: 1.5em;
+}
+
+footer .contact-email a:hover {
+  font-size: 1.55em;
 }
 
 .social-icons i {
   font-size: 2.5em;
+}
+
+.social-icons i:hover {
+  font-size: 2.7em;
 }
 
 footer .copyright {
@@ -812,8 +840,20 @@ footer .contact-wrapper {
 }
 
 .contact-wrapper .email {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
   width: 40%;
   margin-bottom: 120px;
+}
+
+.contact-headline, address {
+  width: 100%
+}
+
+address {
+  padding:10px;
 }
 
 .contact-wrapper .socials {
@@ -824,12 +864,6 @@ footer .contact-wrapper {
 footer h4 {
   padding-bottom: 80px;
   font-size: 2em;
-}
-
-footer .social-icons li {
-  align-items: flex-start;
-  width: 60px;
-  height: 60px;
 }
 }
 
