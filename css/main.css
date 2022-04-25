@@ -96,7 +96,7 @@ html {
 body {
   font-size: 1em;
   font-family: 'Varela Round', sans-serif;
-  color: #f8f8ff;
+  color: #fafafa;
   text-align: center;
 }
 
@@ -107,7 +107,7 @@ ul {
 }
 
 a {
-  color: #f8f8ff;
+  color: #fafafa;
   text-decoration: none;
 }
 
@@ -122,7 +122,7 @@ p {
 }
 
 img {
-  background: #f8f8ff;
+  background: #fafafa;
   width: 100%;
 }
 
@@ -143,7 +143,7 @@ address {
 header {
   background: url("../img/brick-wall-hero-image.png") center no-repeat;
   background-size: cover;
-  color: #ee6386;
+  color: #a8005a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -176,15 +176,15 @@ nav ul li {
 }
 
 nav ul li a {
-  background-color: #ee6386;
+  background-color: #a8005a;
   border-radius: 20px;
   padding: 5px;
 }
 
 a.nav-link:hover {
   background-color: transparent;
-  color: #ee6386;
-  border: 3px solid #ee6386;
+  color: #a8005a;
+  border: 3px solid #a8005a;
 }
 
 header h1, header h2 {
@@ -204,7 +204,7 @@ header h2 {
 /********** Mobile Projects Styles **********/
 
 #projects {
-  background: #ee6386;
+  background: #a8005a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -238,7 +238,7 @@ header h2 {
 
 .portfolio-item figure:hover {
   width: 95%;
-  box-shadow: 10px 10px 2px #ffe6ea;
+  box-shadow: 10px 10px 2px #70003c;
 }
 
 .portfolio-item figure a {
@@ -271,8 +271,8 @@ header h2 {
 }
 
 .project-link {
-  background-color: #f8f8ff;
-  color: #ee6386;
+  background-color: #fafafa;
+  color: #a8005a;
   border-radius: 40px;
   margin: 40px 0px 80px 0px;
   padding: 20px 60px;
@@ -281,13 +281,14 @@ header h2 {
 }
 
 .project-link:hover {
-  background-color: #ffe6ea;
+  background-color: #e0e0e0;
+  color: #70003c;
 }
 
 /********** Mobile Skills Styles **********/
 
 #skills {
-  background: #ffe6ea;
+  background: #fafafa;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -304,7 +305,7 @@ header h2 {
 
 #skills h3.skills-headline,
 #skills h3.tools-headline {
-  color: #ee6386;
+  color: #a8005a;
   font-size: 2em;
   padding-bottom: 30px;
 }
@@ -314,8 +315,8 @@ header h2 {
 }
 
 .skill, .tool {
-  background-color: #ee6386;
-  color: #f8f8ff;
+  background-color: #a8005a;
+  color: #fafafa;
   font-size: 1.25em;
   font-weight: bolder;
   padding: 20px 0px;
@@ -335,7 +336,7 @@ header h2 {
 
 /********** Mobile About Styles **********/
 #about {
-  background: #ee6386;
+  background: #a8005a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -355,7 +356,7 @@ header h2 {
 }
 
 .about-wrapper img {
-  border: 10px solid #f8f8ff;
+  border: 10px solid #fafafa;
   border-radius: 100%;
   width: 80%;
 }
@@ -386,7 +387,7 @@ header h2 {
 /********** Mobile Footer Styles **********/
 
 footer#contact {
-  background: #ffe6ea;
+  background: #fafafa;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -394,7 +395,7 @@ footer#contact {
 }
 
 #contact h3 {
-  color: #ee6386;
+  color: #a8005a;
   padding-bottom: 60px;
   width: 100%;
   font-size: 2em;
@@ -413,11 +414,11 @@ footer .contact-wrapper {
 }
 
 footer p a {
-  color: #ee6386;
+  color: #a8005a;
 }
 
 footer .contact-email a:hover {
-  color: #e6007a;
+  color: #70003c;
 }
 
 .contact-wrapper .socials {
@@ -426,7 +427,7 @@ footer .contact-email a:hover {
 }
 
 footer h4 {
-  color: #ee6386;
+  color: #a8005a;
   padding-bottom: 30px;
   font-size: 1.5em;
 }
@@ -444,16 +445,16 @@ footer .social-icons li {
 }
 
 .social-icons i {
-  color: #ee6386;
+  color: #a8005a;
   font-size: 2em;
 }
 
 .social-icons i:hover {
-  color: #e6007a;
+  color: #70003c;
 }
 
 footer p {
-  color: #ee6386;
+  color: #a8005a;
 }
 
 /* ==========================================================================
